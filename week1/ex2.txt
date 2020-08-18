@@ -1,0 +1,16 @@
+  193  grep "gcc" .
+  194  grep "gcc" 
+  195  cd /usr/bin
+  196  ls
+  197  find . -name "*gcc*" -print
+  198  ls
+  199  ls | find . -name "*gcc*" -print > ex1.txt
+  200  sudo ls | find . -name "*gcc*" -print > ex1.txt
+  201  find . -name "*ex1*" -print 
+  202  ls
+  203  sudo ls | find . -name "*gcc*" -print | sort -r > ~/ex1.txt
+  204  sudo ls | find . -name "*gcc*" -print | sort -r > /Users/fed0rus/Documents/University/F20/OS/week1
+  205  clear
+  206  sudo ls | find . -name "*gcc*" -print | sort -r > /Users/fed0rus/Documents/University/F20/OS/week1/ex1.txt
+  207  history > /Users/fed0rus/Documents/University/F20/OS/week1/ex2.txt
+  208  clEAr
