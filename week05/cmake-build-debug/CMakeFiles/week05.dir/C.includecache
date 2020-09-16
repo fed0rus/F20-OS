@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/fed0rus/Documents/University/F20/OS/Labs/week05/ex3.c
+stdio.h
+-
+stdlib.h
+-
+pthread.h
+-
+

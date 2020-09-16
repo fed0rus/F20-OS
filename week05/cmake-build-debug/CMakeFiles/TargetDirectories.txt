@@ -1,0 +1,3 @@
+/Users/fed0rus/Documents/University/F20/OS/Labs/week05/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/fed0rus/Documents/University/F20/OS/Labs/week05/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/fed0rus/Documents/University/F20/OS/Labs/week05/cmake-build-debug/CMakeFiles/week05.dir
