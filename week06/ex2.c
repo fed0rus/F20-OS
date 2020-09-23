@@ -14,14 +14,14 @@ int main() {
     }
 
     int waitingTime[nOfProcesses], turnaroundTime[nOfProcesses], completionTime[nOfProcesses], buffer[nOfProcesses];
-    int burstTimeCpy[nOfProcesses];
+    int burstTimeCopy[nOfProcesses];
     double totalWaiting = 0;
     double totalTAT = 0;
     buffer[0] = 0;
     waitingTime[0] = 0;
 
     for (int i = 0; i < nOfProcesses; i++) {
-        burstTimeCpy[i] = burstTime[i];
+        burstTimeCopy[i] = burstTime[i];
     }
 
     int t = -1;
@@ -32,17 +32,17 @@ int main() {
         int index = nOfProcesses + 1;
 
         for (int j = 0; j < nOfProcesses; j++) {
-            if (burstTimeCpy[j] > 0 && t >= arrivalTime[j] && smallest > burstTimeCpy[j]) {
-                smallest = burstTimeCpy[j];
+            if (burstTimeCopy[j] > 0 && t >= arrivalTime[j] && smallest > burstTimeCopy[j]) {
+                smallest = burstTimeCopy[j];
                 index = j;
             }
         }
 
         if (index < nOfProcesses) {
-            burstTimeCpy[index]--;
+            burstTimeCopy[index]--;
         }
 
-        if (index < nOfProcesses && burstTimeCpy[index] <= 0) {
+        if (index < nOfProcesses && burstTimeCopy[index] <= 0) {
             processLeft--;
             int terminator = t + 1;
             waitingTime[index] = t + 1 - burstTime[index] - arrivalTime[index];
