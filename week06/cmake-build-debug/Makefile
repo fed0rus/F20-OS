@@ -143,32 +143,32 @@ week06/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/week06.dir/build.make CMakeFiles/week06.dir/build
 .PHONY : week06/fast
 
-ex2.o: ex2.c.o
+ex3.o: ex3.c.o
 
-.PHONY : ex2.o
+.PHONY : ex3.o
 
 # target to build an object file
-ex2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week06.dir/build.make CMakeFiles/week06.dir/ex2.c.o
-.PHONY : ex2.c.o
+ex3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week06.dir/build.make CMakeFiles/week06.dir/ex3.c.o
+.PHONY : ex3.c.o
 
-ex2.i: ex2.c.i
+ex3.i: ex3.c.i
 
-.PHONY : ex2.i
+.PHONY : ex3.i
 
 # target to preprocess a source file
-ex2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week06.dir/build.make CMakeFiles/week06.dir/ex2.c.i
-.PHONY : ex2.c.i
+ex3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week06.dir/build.make CMakeFiles/week06.dir/ex3.c.i
+.PHONY : ex3.c.i
 
-ex2.s: ex2.c.s
+ex3.s: ex3.c.s
 
-.PHONY : ex2.s
+.PHONY : ex3.s
 
 # target to generate assembly for a file
-ex2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week06.dir/build.make CMakeFiles/week06.dir/ex2.c.s
-.PHONY : ex2.c.s
+ex3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week06.dir/build.make CMakeFiles/week06.dir/ex3.c.s
+.PHONY : ex3.c.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... week06"
-	@echo "... ex2.o"
-	@echo "... ex2.i"
-	@echo "... ex2.s"
+	@echo "... ex3.o"
+	@echo "... ex3.i"
+	@echo "... ex3.s"
 .PHONY : help
 
 

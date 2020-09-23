@@ -3,4 +3,4 @@ project(week06 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(week06 ex2.c)
+add_executable(week06 ex3.c)
