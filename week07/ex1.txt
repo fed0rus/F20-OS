@@ -1,0 +1,6 @@
+text: 432
+data: 624
+bss: 8
+dec: 4240
+hex: af2
+filename: ex0

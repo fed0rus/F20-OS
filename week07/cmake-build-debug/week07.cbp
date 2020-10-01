@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/fed0rus/Documents/University/F20/OS/Labs/week07/main.c">
+		<Unit filename="/Users/fed0rus/Documents/University/F20/OS/Labs/week07/ex5.c">
 			<Option target="week07"/>
 		</Unit>
 		<Unit filename="/Users/fed0rus/Documents/University/F20/OS/Labs/week07/CMakeLists.txt">

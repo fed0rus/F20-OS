@@ -77,27 +77,27 @@ include CMakeFiles/week07.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/week07.dir/flags.make
 
-CMakeFiles/week07.dir/main.c.o: CMakeFiles/week07.dir/flags.make
-CMakeFiles/week07.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fed0rus/Documents/University/F20/OS/Labs/week07/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/week07.dir/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/week07.dir/main.c.o   -c /Users/fed0rus/Documents/University/F20/OS/Labs/week07/main.c
+CMakeFiles/week07.dir/ex5.c.o: CMakeFiles/week07.dir/flags.make
+CMakeFiles/week07.dir/ex5.c.o: ../ex5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fed0rus/Documents/University/F20/OS/Labs/week07/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/week07.dir/ex5.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/week07.dir/ex5.c.o   -c /Users/fed0rus/Documents/University/F20/OS/Labs/week07/ex5.c
 
-CMakeFiles/week07.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/week07.dir/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fed0rus/Documents/University/F20/OS/Labs/week07/main.c > CMakeFiles/week07.dir/main.c.i
+CMakeFiles/week07.dir/ex5.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/week07.dir/ex5.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fed0rus/Documents/University/F20/OS/Labs/week07/ex5.c > CMakeFiles/week07.dir/ex5.c.i
 
-CMakeFiles/week07.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/week07.dir/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fed0rus/Documents/University/F20/OS/Labs/week07/main.c -o CMakeFiles/week07.dir/main.c.s
+CMakeFiles/week07.dir/ex5.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/week07.dir/ex5.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fed0rus/Documents/University/F20/OS/Labs/week07/ex5.c -o CMakeFiles/week07.dir/ex5.c.s
 
 # Object files for target week07
 week07_OBJECTS = \
-"CMakeFiles/week07.dir/main.c.o"
+"CMakeFiles/week07.dir/ex5.c.o"
 
 # External object files for target week07
 week07_EXTERNAL_OBJECTS =
 
-week07: CMakeFiles/week07.dir/main.c.o
+week07: CMakeFiles/week07.dir/ex5.c.o
 week07: CMakeFiles/week07.dir/build.make
 week07: CMakeFiles/week07.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/fed0rus/Documents/University/F20/OS/Labs/week07/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable week07"
