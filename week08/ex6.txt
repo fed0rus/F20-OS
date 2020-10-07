@@ -1,0 +1,6 @@
+If a machine has 16 virtual adresses then it will have 2^16 bytes in the byte addressable machine.
+If pages take 8 KB then they will use 2^13 bytes. 
+
+2 ^ (16 - 13) = 2 ^ 3 = 8.
+
+So, the machine needs 8 entries in a single-level linear page table.

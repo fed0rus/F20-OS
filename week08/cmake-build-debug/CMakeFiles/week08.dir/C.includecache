@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/fed0rus/Documents/University/F20/OS/Labs/week08/ex4.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+string.h
+-
+sys/resource.h
+-
+

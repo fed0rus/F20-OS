@@ -1,0 +1,3 @@
+A physical address covers a hardware address in the physical memory.
+
+A virtual address belongs to the virtual space used by a process. It's mapped to a physical address.
